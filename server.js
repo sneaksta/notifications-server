@@ -67,7 +67,7 @@ var app = server
   , io = require('socket.io').listen(app)
   , fs = require('fs')
 
-app.listen(80);
+app.listen(8080);
 
 function postJSON(jsonData, endpoint, callbackFn) {
    var body = JSON.stringify(jsonData)
